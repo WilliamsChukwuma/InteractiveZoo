@@ -7,7 +7,7 @@
 }
 
 .second{
-    width: 42%; 
+    width: 44%; 
     height: auto;
     border: 5px solid transparent; 
     background-color: var(--primary-color);
@@ -46,7 +46,8 @@ p{
 
 .animal {
     text-align: center;
-    margin-right: 20px; /* Adjust as needed */
+    margin-right: 20px; 
+    border: solid var(--secondary-color) 2px;
 }
 
 .animal img {
@@ -63,3 +64,8 @@ footer{
     text-align: center;
     color: var(--tertiary-color);
 }
+
+.pressed {
+    box-shadow: 0 3px 6px 0 #DBEDF3;
+    opacity: 0.5;
+  }
